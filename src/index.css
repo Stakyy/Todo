@@ -40,3 +40,16 @@ code {
 .todo i {
   z-index: 2;
 }
+
+.info {
+  font-size: xx-large;
+}
+
+@media (max-width: 400px) {
+  .nav-wrapper {
+    padding-left: 0;
+  }
+  nav .brand-logo {
+    font-size: 1.5rem;
+  }
+}
